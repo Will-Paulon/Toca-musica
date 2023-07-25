@@ -76,7 +76,7 @@ body{
 }
 
 #current-progress{
-    background-color: white;
+    background-color: blue;
     height: inherit;
     width: 50%;
     border-radius: inherit;
