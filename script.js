@@ -2,7 +2,10 @@ const songName = document.getElementById('song-name');
 const song = document.getElementById('audio');
 const play = document.getElementById('play');
 
-songName.innerText = 'Through the Valley';
+const throughtheValley ={
+    songName : 'Through the Valley'
+
+};
 let isPlaying = false;
 
 function playSong(){
@@ -36,4 +39,4 @@ function playPauseDecider(){
 
 
 
-play.addEventListener('click', playSong);
+play.addEventListener('click', playPauseDecider);
